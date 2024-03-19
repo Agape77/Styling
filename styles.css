@@ -1,0 +1,53 @@
+
+body {
+    background-color: rgba(218, 235, 235, 0.3);
+}
+header {
+    width: 30%;
+    background-color: antiquewhite;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#introduction {
+    width: 50%;
+    background-color: bisque;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#skills {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#skills h2{
+    text-align: inherit;
+}
+
+#skills ul {
+    list-style-type: none;
+}
+
+#skills li {
+    width: 25%;
+    border: 1px solid #333;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#contact {
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 20ox;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+    #introduction, #skills, #contact {
+        padding: 10px;
+    }
+}
